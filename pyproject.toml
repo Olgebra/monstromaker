@@ -10,3 +10,12 @@ requires-python = ">=3.13"
 dependencies = [
     "python-cowsay",
 ]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "doit",
+    "flake8",
+    "pydocstyle",
+    "sphinx",
+]
