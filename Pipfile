@@ -7,11 +7,11 @@ name = "pypi"
 python-cowsay = "*"
 
 [dev-packages]
-black = "*"
 build = "*"
 doit = "*"
+flake8 = "*"
+pydocstyle = "*"
 sphinx = "*"
-yapf = "*"
 
 [requires]
 python_version = "3.13"

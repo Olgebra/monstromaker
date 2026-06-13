@@ -1,0 +1,26 @@
+div.sphinxsidebar ul {
+    list-style: disc outside;
+    margin-left: 1.1em;
+    padding-left: 0.2em;
+}
+
+div.sphinxsidebar li {
+    margin: 0.2em 0;
+}
+
+div.sphinxsidebar #searchbox .search > div {
+    display: block !important;
+    width: 100% !important;
+}
+
+div.sphinxsidebar #searchbox input[type="text"],
+div.sphinxsidebar #searchbox input[type="submit"] {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+}
+
+div.sphinxsidebar #searchbox input[type="submit"] {
+    margin-top: 0.35em;
+}

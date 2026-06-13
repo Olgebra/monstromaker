@@ -1,0 +1,9 @@
+include README.md
+include pyproject.toml
+include MANIFEST.in
+
+include .flake8
+include .pydocstyle
+
+recursive-include doc *.rst *.py *.css Makefile
+prune doc/_build
